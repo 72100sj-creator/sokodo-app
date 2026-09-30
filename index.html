@@ -39,8 +39,8 @@ button{font-family:inherit;} :focus-visible{outline:2px solid var(--accent);outl
 .topbar .brand .mark{font-size:24px;}
 .topbar .brand .name{font-size:18px;font-weight:700;}
 .level-pill{font-size:12px;font-weight:600;border-radius:999px;padding:5px 12px;}
-.phase-1{color:var(--accent);border:1px solid var(--accent-dim);background:rgba(62,217,142,.08);}
-.phase-2{color:var(--accent-2);border:1px solid var(--accent-2-dim);background:rgba(79,142,247,.08);}
+.phase-1{color:var(--accent);border:1px solid var(--accent-dim);background:rgba(200,137,74,.08);}
+.phase-2{color:var(--accent-2);border:1px solid var(--accent-2-dim);background:rgba(232,213,176,.06);}
 .phase-3{color:var(--gold);border:1px solid rgba(224,178,85,.4);background:rgba(224,178,85,.08);}
 main{flex:1;padding:0 20px 12px;}
 .screen{display:none;}
@@ -88,7 +88,7 @@ nav.bottomnav svg{width:22px;height:22px;}
 .round-dots{display:flex;gap:6px;}
 .round-dot{width:10px;height:10px;border-radius:50%;background:var(--surface-3);}
 .round-dot.done{background:var(--accent);}
-.round-dot.current{background:var(--accent-2);box-shadow:0 0 0 2px rgba(79,142,247,.4);}
+.round-dot.current{background:var(--accent-2);box-shadow:0 0 0 2px rgba(200,137,74,.4);}
 .w-progress-bar{height:3px;background:var(--surface-3);border-radius:2px;margin:4px 0 2px;}
 .w-progress-fill{height:100%;background:var(--accent);border-radius:2px;transition:width .5s ease;}
 .w-progress-label{font-size:11px;color:var(--text-faint);text-align:center;margin-bottom:10px;}
@@ -114,7 +114,7 @@ nav.bottomnav svg{width:22px;height:22px;}
 .reps-counter{text-align:center;margin:10px 0 18px;}
 .reps-counter .big{font-family:'JetBrains Mono',monospace;font-size:54px;font-weight:700;}
 .reps-counter .target{color:var(--text-dim);font-size:18px;}
-.btn-rep{min-height:200px;font-size:30px;border-radius:28px;box-shadow:0 12px 30px rgba(62,217,142,.25);}
+.btn-rep{min-height:200px;font-size:30px;border-radius:28px;box-shadow:0 12px 30px rgba(200,137,74,.25);}
 .btn-rep:active{transform:scale(0.96);}
 @keyframes repFlash{
   0%  {background:var(--accent);box-shadow:0 12px 30px rgba(200,137,74,.2);transform:scale(1);}
@@ -146,7 +146,7 @@ nav.bottomnav svg{width:22px;height:22px;}
 .cal-dow{text-align:center;font-size:11px;color:var(--text-faint);padding-bottom:4px;}
 .cal-day{aspect-ratio:1;display:flex;align-items:center;justify-content:center;border-radius:10px;font-size:13px;background:var(--surface-2);color:var(--text-dim);}
 .cal-day.empty{background:transparent;}
-.cal-day.done{background:rgba(62,217,142,.18);color:var(--accent);font-weight:700;border:1px solid var(--accent-dim);}
+.cal-day.done{background:rgba(200,137,74,.18);color:var(--accent);font-weight:700;border:1px solid var(--accent-dim);}
 .cal-day.partial{background:rgba(224,178,85,.14);color:var(--gold);border:1px solid rgba(224,178,85,.4);}
 .cal-day.today{box-shadow:0 0 0 2px var(--accent-2) inset;}
 .tabs{display:flex;gap:8px;margin-bottom:14px;}
@@ -157,7 +157,7 @@ nav.bottomnav svg{width:22px;height:22px;}
 .hd-date{font-weight:600;font-size:14px;}
 .hd-meta{font-size:12.5px;color:var(--text-dim);}
 .status-pill{font-size:11px;font-weight:700;padding:4px 10px;border-radius:999px;}
-.status-pill.ok{background:rgba(62,217,142,.15);color:var(--accent);}
+.status-pill.ok{background:rgba(200,137,74,.15);color:var(--accent);}
 .status-pill.bad{background:rgba(224,178,85,.15);color:var(--gold);}
 /* Weekly report dots */
 .week-dots{display:flex;justify-content:space-between;margin:4px 0 2px;}
@@ -169,18 +169,18 @@ nav.bottomnav svg{width:22px;height:22px;}
 /* Badges */
 .badge-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;}
 .badge{background:var(--surface-2);border:1px solid var(--border);border-radius:14px;padding:14px 6px;text-align:center;opacity:.35;}
-.badge.unlocked{opacity:1;border-color:var(--accent-dim);background:rgba(62,217,142,.07);}
+.badge.unlocked{opacity:1;border-color:var(--accent-dim);background:rgba(200,137,74,.07);}
 .badge .b-emoji{font-size:26px;}
 .badge .b-name{font-size:10.5px;color:var(--text-dim);margin-top:6px;line-height:1.3;}
 .badge.unlocked .b-name{color:var(--text);}
-.banner{background:linear-gradient(135deg,rgba(62,217,142,.14),rgba(79,142,247,.1));border:1px solid var(--accent-dim);border-radius:var(--radius);padding:16px;margin-bottom:14px;}
+.banner{background:linear-gradient(135deg,rgba(200,137,74,.14),rgba(232,213,176,.06));border:1px solid var(--accent-dim);border-radius:var(--radius);padding:16px;margin-bottom:14px;}
 .garmin-banner{display:flex;align-items:center;justify-content:space-between;gap:10px;
-  background:rgba(79,142,247,.10);border:1px solid var(--accent-2-dim);border-radius:var(--radius-sm);
+  background:rgba(232,213,176,.06);border:1px solid var(--accent-2-dim);border-radius:var(--radius-sm);
   padding:12px 14px;margin-bottom:14px;font-size:13px;color:var(--text);cursor:pointer;}
 .garmin-banner span{flex:1;line-height:1.4;}
 .garmin-banner .dismiss{color:var(--text-faint);font-size:18px;flex-shrink:0;padding:0 4px;}
 .garmin-report-note{display:flex;align-items:center;gap:10px;
-  background:rgba(79,142,247,.08);border:1px solid var(--accent-2-dim);border-radius:var(--radius-sm);
+  background:rgba(232,213,176,.05);border:1px solid var(--accent-2-dim);border-radius:var(--radius-sm);
   padding:12px 14px;margin-top:14px;font-size:13px;color:var(--text);}
 .banner p{font-size:14px;margin:0 0 12px;line-height:1.4;}
 .radio-line{display:flex;align-items:center;gap:10px;padding:10px 0;}
@@ -202,11 +202,11 @@ nav.bottomnav svg{width:22px;height:22px;}
 .rest-day-card .rdc-emoji{font-size:52px;margin-bottom:12px;}
 .rest-day-card p{color:var(--text-dim);font-size:15px;line-height:1.6;}
 /* ===== GUIDE ===== */
-.guide-cover-card{background:linear-gradient(135deg,var(--surface) 0%,var(--surface-2) 55%,rgba(62,217,142,.09) 100%);border:1px solid var(--border);border-radius:var(--radius);padding:36px 20px 28px;text-align:center;margin-bottom:14px;position:relative;overflow:hidden;}
-.guide-cover-card::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 80% 15%,rgba(79,142,247,.07),transparent 55%);pointer-events:none;}
+.guide-cover-card{background:linear-gradient(135deg,var(--surface) 0%,var(--surface-2) 55%,rgba(200,137,74,.08) 100%);border:1px solid var(--border);border-radius:var(--radius);padding:36px 20px 28px;text-align:center;margin-bottom:14px;position:relative;overflow:hidden;}
+.guide-cover-card::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 80% 15%,rgba(200,137,74,.05),transparent 55%);pointer-events:none;}
 .guide-ninja-big{font-size:68px;display:block;margin-bottom:10px;}
 .guide-label{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.12em;color:var(--accent);margin-bottom:6px;}
-.guide-h1{font-size:26px;font-weight:700;color:var(--text);font-family:'Space Grotesk','Inter',sans-serif;letter-spacing:-.01em;}
+.guide-h1{font-size:26px;font-weight:400;color:var(--text);font-family:'DM Serif Display','Inter',serif;letter-spacing:.01em;}
 .guide-year{font-size:15px;color:var(--text-dim);margin-top:4px;letter-spacing:.04em;}
 .guide-meta{display:flex;flex-direction:column;gap:8px;margin-bottom:16px;}
 .guide-meta-row{display:flex;align-items:center;gap:10px;font-size:13px;color:var(--text-dim);}
@@ -269,7 +269,7 @@ nav.bottomnav svg{width:22px;height:22px;}
 /* PDF : ouverture via window.open - pas d'overlay inline */
 /* Bannière mise à jour */
 #updateBanner{display:none;align-items:center;justify-content:space-between;gap:10px;
-  padding:12px 16px;background:linear-gradient(135deg,rgba(62,217,142,.18),rgba(79,142,247,.14));
+  padding:12px 16px;background:linear-gradient(135deg,rgba(200,137,74,.18),rgba(232,213,176,.08));
   border-bottom:1px solid var(--accent-dim);position:sticky;top:0;z-index:100;}
 #updateBanner.show{display:flex;}
 #updateBanner p{font-size:13px;margin:0;color:var(--text);flex:1;}
@@ -282,7 +282,7 @@ nav.bottomnav svg{width:22px;height:22px;}
   padding:24px 20px calc(24px + var(--safe-bottom));width:100%;max-height:80vh;overflow-y:auto;}
 .modal-sheet h2{font-size:20px;margin-bottom:4px;}
 .modal-sheet .version-tag{font-size:12px;color:var(--accent);font-weight:600;
-  background:rgba(62,217,142,.1);padding:4px 10px;border-radius:999px;display:inline-block;margin-bottom:16px;}
+  background:rgba(200,137,74,.1);padding:4px 10px;border-radius:999px;display:inline-block;margin-bottom:16px;}
 .modal-sheet ul{padding:0 0 0 18px;margin:0;}
 .modal-sheet ul li{font-size:14px;color:var(--text-dim);margin-bottom:8px;line-height:1.4;}
 .modal-sheet ul li strong{color:var(--text);}
@@ -872,7 +872,7 @@ function ficheHTML(f,withBack){
       <div style="font-size:13px;color:var(--text-dim);">${esc(f.m)}</div>
       <div style="font-size:12px;color:var(--gold);margin-top:4px;">${esc(f.d)}</div>
 
-      <div style="background:var(--surface-2);border:1px solid var(--accent-2-dim);border-radius:var(--radius-sm);padding:12px 14px;margin-top:14px;">
+      <div style="background:var(--surface-2);border:1px solid var(--accent-dim);border-radius:var(--radius-sm);padding:12px 14px;margin-top:14px;">
         <div class="gx-sec" style="color:var(--accent-2);margin-bottom:6px;">Dans l'application</div>
         <div style="font-size:12.5px;color:var(--text-dim);">${esc(f.j)}</div>
         <div style="font-size:17px;font-weight:700;margin-top:4px;">${esc(f.dose)}</div>
@@ -885,16 +885,16 @@ function ficheHTML(f,withBack){
       <div class="gx-sec" style="color:var(--accent);margin-top:16px;">Déroulé</div>
       ${f.e.map((st,i)=>`<div class="gx-step"><div class="gx-step-n">${i+1}</div><div class="gx-step-t">${esc(st)}</div></div>`).join('')}
 
-      ${f.c?`<div style="background:rgba(224,178,85,.08);border:1px solid rgba(224,178,85,.35);border-radius:var(--radius-sm);padding:12px 14px;margin-top:6px;">
-        <div class="gx-sec" style="color:var(--gold);margin-bottom:5px;">Conseil du vieux maître</div>
+      ${f.c?`<div style="background:rgba(200,137,74,.08);border:1px solid rgba(200,137,74,.30);border-radius:var(--radius-sm);padding:12px 14px;margin-top:6px;">
+        <div class="gx-sec" style="color:var(--accent-2);margin-bottom:5px;">Le conseil de Papa Ninja</div>
         <div style="font-size:13.5px;color:var(--text-dim);font-style:italic;line-height:1.5;">${esc(f.c)}</div></div>`:''}
 
-      <div style="background:rgba(226,97,79,.07);border:1px solid rgba(226,97,79,.3);border-radius:var(--radius-sm);padding:12px 14px;margin-top:12px;">
+      <div style="background:rgba(201,123,106,.07);border:1px solid rgba(201,123,106,.28);border-radius:var(--radius-sm);padding:12px 14px;margin-top:12px;">
         <div class="gx-sec" style="color:var(--danger);">Erreurs fréquentes</div>
         ${f.err.map(e=>`<div class="gx-err"><b>×</b>${esc(e)}</div>`).join('')}
       </div>
 
-      <div style="background:rgba(62,217,142,.06);border:1px solid var(--accent-dim);border-radius:var(--radius-sm);padding:12px 14px;margin-top:12px;">
+      <div style="background:rgba(200,137,74,.06);border:1px solid var(--accent-dim);border-radius:var(--radius-sm);padding:12px 14px;margin-top:12px;">
         <div class="gx-sec" style="color:var(--accent);">Variante lombaires sensibles</div>
         <div style="font-size:13.5px;color:var(--text-dim);line-height:1.5;">${esc(f.v)}</div>
       </div>
@@ -971,7 +971,7 @@ function showGuideReady(card){
   card.innerHTML=`
     <div class="card-title">📖 Guide Sokōdo 2026</div>
     <p style="font-size:14px;color:var(--text-dim);line-height:1.6;margin:0 0 14px;">
-      Ce guide accompagne ton programme sur 12 semaines : fiches exercices illustrées,
+      Ce guide accompagne ton programme Sokōdo sur 12 semaines : fiches exercices illustrées,
       programme hebdomadaire, calendrier de progression et conseils de récupération.
     </p>
     <div class="guide-meta">
